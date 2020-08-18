@@ -57,7 +57,7 @@ com.github.lhotari.jacksonbug.JacksonBugTest > reproduceSerializerBug() FAILED
 * Test passes with Jackson 2.11.1 version, but fails with [2.11.2](https://github.com/FasterXML/jackson/wiki/Jackson-Release-2.11.2) .
 * [Diff between Jackson 2.11.2 and 2.11.1](https://github.com/FasterXML/jackson-databind/compare/jackson-databind-2.11.1...jackson-databind-2.11.2)
 
-Changes for #2796 might have caused the change in behavior.
+Changes for https://github.com/FasterXML/jackson-databind/issues/2796 might have caused the change in behavior.
 
 Looks like the problem that https://github.com/FasterXML/jackson-databind/commit/910edfb634f55cdb8d78ac7d9caf00d8133a11e6 fixes could have been similar.
 
