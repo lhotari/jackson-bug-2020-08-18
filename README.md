@@ -1,5 +1,7 @@
 # Reproduces a Jackson serializer bug introduced in 2.11.2
 
+Reported as https://github.com/FasterXML/jackson-databind/issues/2821
+
 ## To reproduce
 
 ```
